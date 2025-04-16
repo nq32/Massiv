@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // Создаем массив для хранения 6 фруктов
+    char fruits[6];
+
+    // Используем sizeof для определения размера массива
+    size_t arraySize = sizeof(fruits);
+
+    // Вывод результата
+    printf("Размер массива fruits равен %zu байт.\n", arraySize);
+
+    return 0;
+}
